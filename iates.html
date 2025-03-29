@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alugue seu Iate</title>
+</head>
+<body>
+
+    <header>
+        <h1>Sistema de Aluguel de Iates</h1>
+    </header>
+
+    <img src="alugueiate.jpg" alt="Venha Luxar e desfrutar a vida da melhor forma!">
+
+    
+    <div class="container">
+        <h2>Faça sua Reserva</h2>
+        <form action="#" method="POST">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <br>
+            <br>
+    
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <br>
+            <br>
+    
+            <label for="iate">Selecione o Iate</label>
+            <select id="iate" name="iate" required>
+                <option value="iate1">Iate Luxo 1</option>
+                <option value="iate2">Iate Luxo 2</option>
+                <option value="iate3">Iate Luxo 3</option>
+                <option value="iate4">Iate Luxo 4</option>
+            </select>
+
+            <br>
+            <br>
+    
+            <label for="data_inicio">Data de Início</label>
+            <input type="date" id="data_inicio" name="data_inicio" required>
+    
+            <label for="data_fim">Data de Fim</label>
+            <input type="date" id="data_fim" name="data_fim" required>
+
+            <br>
+            <br>
+    
+            <label for="pessoas">Número de Pessoas</label>
+            <input type="number" id="pessoas" name="pessoas" min="1" required>
+
+            <br>
+            <br>
+    
+            <label for="comentarios">Comentários ou Solicitações Especiais:</label>
+            <br>
+            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+            <br>
+            <br>
+    
+            <button type="submit">Confirmar Reserva</button>
+        </form>
+    </div>
+    
+    </body>
+</html>
